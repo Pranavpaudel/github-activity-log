@@ -37,7 +37,7 @@ npm install node-fetch
 
 ## 🧠 Project Roadmap
 
-This project is based on the roadmap from https://roadmap.sh/projects/github-user-activity — https://roadmap.sh/projects/github-user-activity — and is hosted on GitHub at https://github.com/Pranavpaudel/github-activity-log.
+This project is based on the roadmap from https://roadmap.sh/projects/github-user-activity — https://roadmap.sh/projects/github-user-activity 
 
 ## 📁 Files
 
