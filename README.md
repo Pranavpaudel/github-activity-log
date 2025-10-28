@@ -18,3 +18,5 @@ A Node.js script that fetches and displays the recent public activity of a speci
 
    ```bash
    cd github-activity-log
+
+  project url: "https://github.com/Pranavpaudel/github-activity-log"
