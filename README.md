@@ -1,20 +1,56 @@
+Here’s the full README content for your **GitHub Activity Logger** project, including the roadmap and GitHub URL clearly shown:
+
+---
+
 # GitHub Activity Logger
 
-A Node.js script that fetches and displays the recent public activity of a specified GitHub user using the GitHub Events API.
+This project fetches and displays recent public activity for a given GitHub username using the GitHub Events API.
 
-## 🚀 Features
+## 🔧 Features
 
-- Fetches latest public events for a GitHub user
-- Displays event type, repository name, and timestamp
-- Handles errors and edge cases gracefully
-## 🛠️ Requirements
+- Fetches public events for any GitHub user  
+- Displays recent activity in a readable format  
+- Handles errors and edge cases gracefully  
 
-- Node.js (v14 or higher)
+## 🚀 Usage
 
-## 📦 Installation
+```bash
+node github-activity.js <GitHubUsername>
+```
 
-1. Clone this repository or download the script.
-2. Navigate to the project directory:
+Example:
 
-   ```bash
-   cd github-activity-log
+```bash
+node github-activity.js torvalds
+```
+
+## 📦 Requirements
+
+- Node.js  
+- `node-fetch` package  
+
+Install dependencies:
+
+```bash
+npm install node-fetch
+```
+
+## 🧠 Project Roadmap
+
+This project is based on the roadmap from https://roadmap.sh/projects/github-user-activity — https://roadmap.sh/projects/github-user-activity — and is hosted on GitHub at https://github.com/Pranavpaudel/github-activity-log.
+
+## 📁 Files
+
+- `github-activity.js`: Main script to fetch and display activity
+
+## 🛠️ Future Improvements
+
+- Save activity logs to a file  
+- Format output as a table or markdown  
+- Add support for pagination or filtering by event type  
+
+## 📄 License
+
+MIT
+
+---
